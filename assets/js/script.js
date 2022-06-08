@@ -35,7 +35,7 @@ var cronometro = setInterval(function () {
   if (tempo < 0) {
     clearInterval(cronometro)
     clearInterval(criaCarol)
-    window.location.href = '/vitoria.html'
+    window.location.href = '../vitoria.html'
   } else
     document.getElementById('cronometro').innerHTML = tempo
 }, 1000)
@@ -47,9 +47,9 @@ function posicaoRandomica() {
     document.getElementById('carol').remove()
 
     if (vidas > 3) {
-      window.location.href = '/game-over.html'
+      window.location.href = '../game-over.html'
     } else {
-      document.getElementById('v' + vidas).src = 'assets/images/passaporte-vazio.png';
+      document.getElementById('v' + vidas).src = '../images/passaporte-vazio.png';
 
       vidas++
     }

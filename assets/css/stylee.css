@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  cursor: url(/images/mouse.png) 1 12, auto !important;
+}
+
+.tamanho {
+  width: 920px;
+}
+
+.borda{
+  border-radius: 20px;
+}

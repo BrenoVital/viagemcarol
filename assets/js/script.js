@@ -66,7 +66,7 @@ function posicaoRandomica() {
 
   // elemento HTML
   var carol = document.createElement('img')
-  carol.src = '/images/carol.jpeg'
+  carol.src = '../Images/carol.jpeg'
   carol.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
   carol.style.left = posicaoX + 'px'
   carol.style.top = posicaoY + 'px'

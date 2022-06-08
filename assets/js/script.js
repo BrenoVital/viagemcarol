@@ -1,7 +1,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
-var tempo = 3
+var tempo = 300
 
 var criaCarolTempo = 1500
 

@@ -49,7 +49,7 @@ function posicaoRandomica() {
     if (vidas > 3) {
       window.location.href = '../game-over.html'
     } else {
-      document.getElementById('v' + vidas).src = '../images/passaporte-vazio.png';
+      document.getElementById('v' + vidas).src = '../assets/images/passaporte-vazio.png';
 
       vidas++
     }
@@ -66,7 +66,7 @@ function posicaoRandomica() {
 
   // elemento HTML
   var carol = document.createElement('img')
-  carol.src = '../Images/carol.jpeg'
+  carol.src = '../assets/Images/carol.jpeg'
   carol.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
   carol.style.left = posicaoX + 'px'
   carol.style.top = posicaoY + 'px'

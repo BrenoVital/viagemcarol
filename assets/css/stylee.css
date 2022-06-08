@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  cursor: url(assets/Images/mouse.png) 1 12, auto !important;
+  cursor: url(/assets/Images/mouse.png) 1 12, auto !important;
 }
 
 .tamanho {
